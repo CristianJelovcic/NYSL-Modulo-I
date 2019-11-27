@@ -1,0 +1,161 @@
+.container {
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: auto;
+    max-width: "1ooopx";
+}
+
+body {
+    color: white;
+    font-family: 'Sriracha', fantasy;
+    font-weight: bolder;
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    background-position: center;
+    background-size: cover;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+a,
+ol,
+ul,
+li,
+dl {
+    font-family: 'Sriracha', fantasy;
+    font-weight: bolder;
+    color: white;
+}
+
+
+h3 {
+    font-style: italic;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+/*---------------- style for Header ---------------------- */
+
+header {
+    height: 300px;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+
+}
+
+#back_image {
+    background-image: url("design2_image1.jpeg");
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    background-position: center;
+    background-size: cover;
+}
+
+/*---------------- style for Title ---------------------- */
+
+#title_box {
+    padding: 5px;
+    border: solid 3px;
+}
+
+#title {
+    text-align: center;
+}
+
+/*---------------- style for Sub Title ---------------------- */
+
+#title_sub_box {
+    padding: 5px;
+    border: solid 3px;
+    display: none;
+}
+
+#title_sub {
+    text-align: center;
+    margin: 0px;
+}
+
+/*---------------- style for logo ---------------------- */
+
+#logo {
+    position: absolute;
+    left: 5%;
+    top: 20px;
+}
+
+/*---------------- style for Section ---------------------- */
+
+#section_id {
+    position: relative;
+    left: 30%;
+    display: inline-block;
+    width: 40%;
+    margin-top: 70px;
+    border-radius: 1px;
+}
+
+
+/*---------------- style for Article ---------------------- */
+article {
+    margin: 5px 20px 60px 20px;
+    border-radius: 5px;
+}
+
+/*---------------- style for Nav ---------------------- */
+
+a {
+    display: block;
+    margin-top: 15px;
+}
+
+#nav_id {
+    /*position: absolute;*/
+    top: 440px;
+    display: block;
+}
+
+
+.btn {
+    background-color: #0039e6;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 20px;
+    cursor: pointer;
+    box-shadow: 5px 5px #1a1a1a;
+    border-radius: 1px;
+}
+
+#btn_green {
+    background-color: #00cc00;
+}
+
+#link_id {
+    display: inline;
+    margin: 0px;
+}
+
+.dark_background {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*---------------- style for Footer ---------------------- */
+#footer_id {
+    color: white;
+    position: fixed;
+    left: 33%;
+    bottom: 10px;
+    margin: 0px;
+}
+
+/*---------------- style for List ---------------------- */
+#list-id {}
